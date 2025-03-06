@@ -10,7 +10,7 @@ word_index = imdb.get_word_index()
 reverse_word_index = {value: key for key, value in word_index.items()}
 
 # Load pre-trained model
-model = load_model('simple_rnn_imdb.keras')
+model = load_model('simple_RNN_imdb.keras')
 
 # Function to preprocess text
 def preprocess_text(text):
